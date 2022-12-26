@@ -9,6 +9,7 @@
 
 .title{
     font-size: 2em;
+    cursor: default;
 }
 .login{
     text-align: center;
@@ -27,6 +28,13 @@ button{
     padding: 1em;
     outline: 0;
     cursor: pointer;
+    background: black;
+    color: white;
+    border-radius: 15px;
+}
+
+button:hover{
+    background: rgb(0, 0, 0, 0.8);
 }
 
 input{
