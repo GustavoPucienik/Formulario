@@ -4,14 +4,23 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="Animated/anim.css">
     <script src="Animated/js.js"></script>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
 
 <div  class="slider-thumb">
+    <header>
+    <div>
+        <input type="checkbox" name="muda-tema" id="muda-tema">
+        <label for="muda-tema">
+            <i class="bi bi-sun"></i>
+            <i class="bi bi-moon"></i>
+        </label>
+    </div>
         <nav class="menu">
             <ul>
                 <li><b>Contatos</b></li>
@@ -19,6 +28,7 @@
                 <li><b>Menu</b></li>
             </ul>
         </nav>
+    </header>
     <main class="login">
             <h1 class="title"><b>Entrar</b></h1>
         <form class="for">
