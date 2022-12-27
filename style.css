@@ -7,6 +7,12 @@
     padding: 0;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3vw;
+}
+
 .title{
     font-size: 2em;
     cursor: default;
@@ -37,6 +43,16 @@ button:hover{
     background: rgb(0, 0, 0, 0.8);
 }
 
+.bi{
+    display: block;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.bi-moon{
+    display: none;
+}
+
 input{
     margin: 10px;
     border: 0;
@@ -58,15 +74,16 @@ input{
 .menu ul{
     display: flex;
     flex-direction: row-reverse;
-    gap: 1em;
+    gap: 1rem;
     list-style: none;
-    margin-right: 2%;
+    margin-right: 5%;
 }
 .menu ul li{
     color: black;
     padding: 15px;
-    margin-top: 1%;
+    margin-top: 10%;
     border-radius: 1em;
+    box-shadow: .5px .5px 10px .5px #000;
 }
 
 .menu ul li:hover{
@@ -78,12 +95,31 @@ input[type ="checkbox"]{
     display: none;
 }
 
+label{
+    padding: 5px;
+    margin-top: 1em;
+}
+
+
+
+/*dark   */
 .dark, .dark header{
     background: #263238;
     color: #fff;
 }
 
-label{
-    padding: 5px;
-    margin-top: 1em;
+.dark .bi-sun{
+    display: none;
+}
+
+.dark .bi-moon{
+    display: block;
+}
+
+.dark ul li{
+    color: #fff;
+}
+
+.dark .login{
+    background: #263238;
 }
