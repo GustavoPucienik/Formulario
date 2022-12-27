@@ -37,6 +37,7 @@ button{
     background: rgba(0, 0, 0, 0.8);
     color: white;
     border-radius: 15px;
+    transition: .7s;
 }
 
 button:hover{
@@ -84,6 +85,7 @@ input{
     margin-top: 10%;
     border-radius: 1em;
     box-shadow: 1px 1px 5px .5px #000;
+    transition: .7s;
 }
 
 .menu ul li:hover{
@@ -105,7 +107,7 @@ label{
 
 /*dark   */
 .dark, .dark header{
-    background: #263238;
+    background: linear-gradient(90deg,#4b636e 30%,#263238 70%, #11171a 100%);
     color: #fff;
 }
 
