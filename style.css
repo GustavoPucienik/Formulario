@@ -34,13 +34,13 @@ button{
     padding: 1em;
     outline: 0;
     cursor: pointer;
-    background: black;
+    background: rgba(0, 0, 0, 0.8);
     color: white;
     border-radius: 15px;
 }
 
 button:hover{
-    background: rgb(0, 0, 0, 0.8);
+    background: rgb(0, 0, 0);
 }
 
 .bi{
@@ -83,11 +83,12 @@ input{
     padding: 15px;
     margin-top: 10%;
     border-radius: 1em;
-    box-shadow: .5px .5px 10px .5px #000;
+    box-shadow: 1px 1px 5px .5px #000;
 }
 
 .menu ul li:hover{
-    background: rgba(252,98,60,1);
+    background: rgb(0, 0, 0);
+    color: #fff;
     cursor: pointer;
 }
 
@@ -122,4 +123,12 @@ label{
 
 .dark .login{
     background: #263238;
+}
+
+.dark .menu ul li:hover{
+    background: #40545e;
+}
+
+.dark button:hover{
+    background: #40545e;
 }
