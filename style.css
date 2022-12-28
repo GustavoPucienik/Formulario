@@ -31,13 +31,14 @@ header{
 
 button{
     font-size: 1em;
-    padding: 1em;
+    padding: 1.2em;
     outline: 0;
     cursor: pointer;
     background: rgba(0, 0, 0, 0.8);
     color: white;
     border-radius: 15px;
     transition: .7s;
+    border: none;
 }
 
 button:hover{
@@ -74,15 +75,16 @@ input{
 
 .menu ul{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    justify-content: flex-end;
     gap: 1rem;
     list-style: none;
     margin-right: 5%;
+    position: relative;
 }
 .menu ul li{
-    color: black;
     padding: 15px;
-    margin-top: 10%;
+    margin-top: 2vw;
     border-radius: 1em;
     box-shadow: 1px 1px 5px .5px #000;
     transition: .7s;
@@ -90,7 +92,6 @@ input{
 
 .menu ul li:hover{
     background: rgb(0, 0, 0);
-    color: #fff;
     cursor: pointer;
 }
 
@@ -103,6 +104,16 @@ label{
     margin-top: 1em;
 }
 
+.menu a{
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    
+} 
+
+.menu ul li:hover{
+    color: #fff;
+}
 
 
 /*dark   */
